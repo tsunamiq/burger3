@@ -23,17 +23,29 @@ body {
 #user-icon {
 	position: relative;
 	top: 10px;
-	left: 70px;
+	left: 30px;
 	height: 70px;
 	width: 70px;
+	margin-bottom: 10px;
 }
 
 #user-name {
 	position: relative;
-	top: 10px;
-	left: 55px;
+	background: black;
+	width: 155px;
+	left: 50px;
 	margin-top: 5px;
 	margin-bottom: 20px;
+	border: 1px white solid;
+	border-radius: 10px;
+}
+
+#user-name-1 {
+	position: relative;
+	background: black;
+	width: 120px;
+	left: 15px;
+	margin-bottom: 10px;
 }
 
 #results-display-header {
@@ -133,6 +145,7 @@ body {
 
 #results-display {
 	border: 1px solid white;
+	background: black;
 }
 
 #user {
@@ -148,14 +161,14 @@ body {
 	width: 150px;
 	position: relative;
 	top: 10px;
-	left: 60px;
+	left: 180px;
 	border: 1px solid white;
 	background: black;
 	border-radius: 10px;
 }
 
 #calories-consumed {
-	left: 70px;
+	left: 190px;
 	width: 150px;
 	position: relative;
 	top: 10px;
@@ -168,14 +181,13 @@ body {
 	width: 150px;
 	position: relative;
 	top: 10px;
-	left: 80px;
+	left: 200px;
 	border: 1px solid white;
 	background: black;
 	border-radius: 10px;
 }
 
 #filter-container {
-
 	visibility: hidden;
 	top: 42%;
 	left: 10%;

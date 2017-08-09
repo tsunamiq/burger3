@@ -55,7 +55,7 @@ function buildWireFrame() {
 
     var userIcon = $("<img src='images/user-512.png'>").attr({id: "user-icon"});
     $(colOneOne).append(userIcon);
-    var userName = $("<div>Allyson Felix</div>").attr({id: "user-name"});
+    var userName = $("<div>Allyson Felix</div>").attr({id: "user-name-1"});
     $(colOneOne).append(userName);
     var caloriesFixedHeader = $("<div>Daily Calories:</div>").attr({id: "calories-fixed-header"});
     var caloriesFixedValue= $("<div>2500</div>").attr({id: "calories-fixed-value"});
