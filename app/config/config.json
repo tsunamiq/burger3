@@ -1,13 +1,7 @@
 {
   "development": {
     "username": "root",
-<<<<<<< HEAD
     "password": "root",
-=======
-
-    "password": "TANNERsucks26!!",
-
->>>>>>> beac202070e19f97ce84050cff93613d8396c8a2
     "database": "burger3_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
