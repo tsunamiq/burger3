@@ -1,44 +1,33 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
   <html>
     <head>
      <!--  <link rel="stylesheet" href="index.css"> -->
       <!-- Compiled and minified CSS -->
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       
     </head>
-
   <body>
     
-
-
   <div class="parallax-container">
   
     <div class="parallax"><img src="https://static.pexels.com/photos/254884/pexels-photo-254884.jpeg"></div>
   </div>
   <div class="section white">
     <div class="row container">
-
  <div class="row">
     <form class="col s12">
       <div class="row">
         
-
-
  <div class="input-field col s3">
           <input id="login_name" type="text" class="validate">
           <label for="login_name">Login Name</label>
         </div>
-
-
  <div class="input-field col s3">
           <input id="first_name" type="text" class="validate">
           <label for="first_name">First Name</label>
         </div>
-
-
         <div class="input-field col s3">
           <input id="last_name" type="text" class="validate">
           <label for="last_name">Last Name</label>
@@ -46,63 +35,38 @@
      
       
       
-
-
     
         <div class="input-field col s3">
           <input id="password" type="password" class="validate">
           <label for="password">Password</label>
         </div>
-
-
-
-
 <div class="input-field col s3">
           <input id="age" type="number" class="validate">
           <label for="age">Age</label>
         </div>
      
-
    
-
-
-
-
-
      
         <div class="input-field col s3">
           <input id="email" type="email" class="validate">
           <label for="email">Email</label>
         </div>
-
-
-
-
  <div class="input-field col s3">
           <input id="height" type="number" class="validate">
           <label for="height">Height in inches</label>
         </div>
-
-
          <div class="input-field col s3">
           <input id="weight" type="number" class="validate">
           <label for="weight">Weight in Pounds</label>
         </div>
-
-
 <div class="input-field col s12">
           <input id="weight_loss" type="number" class="validate">
           <label for="weight_loss">Enter how much weight you want to lose in pounds</label>
         </div>
-
-
-
         <div class="input-field col s12">
           <input id="how_long" type="number" class="validate">
           <label for="how_long">Enter how many weeks you would like to achieve the weight loss</label>
         </div>
-
-
     <form id="lifestyle" action="#">
       <p> How Active Are You?</br>
         <input name="group1" type="radio" id="inactive" />
@@ -117,7 +81,6 @@
         <label for="active">Very Active</label>
       </p>
     </form>
-
        <form id="gender" action="#">
     <p> How Active Are You?</br>
       <input name="group2" type="radio" id="male" />
@@ -130,16 +93,9 @@
   
     
   </form>
-
-
         
-
-
 <!-- <input id="submit-form" type="submit"> -->
-
-
-        <a id="submit-form" class="waves-effect waves-light btn modal-trigger" href="#modal1">submit</a>
-
+        <a id="submit-form" class="waves-effect waves-light btn modal-trigger" href="/main">submit</a>
         <!-- Modal Structure -->
         <div id="modal1" class="modal">
           <div class="modal-content">
@@ -148,19 +104,15 @@
           </div>
           <div class="modal-footer">
               <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat" value="false">cancel</a>
-              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat" value="true">confirm</a>
+              <a href="/main" class="modal-action modal-close waves-effect waves-green btn-flat" value="true">confirm</a>
           </div>
         </div>
-
-
      
           </div>
         </div>
       </div>
     </form>
   </div>
-
-
       <h2 class="header"></h2>
       
     </div>
@@ -168,11 +120,7 @@
   <div class="parallax-container">
     <div class="parallax"><img src="https://static.pexels.com/photos/9055/pexels-photo.jpg"></div>
   </div>
-
          
-
-
-
   
    
 <!--Import jQuery before materialize.js-->
@@ -181,17 +129,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
 <script type="text/javascript" src="javascript/userform.js"></script>
 <script>
-
  $(document).ready(function(){
       $('.parallax').parallax();
     });
-
     $('.modal').modal();
-
-
     
-
 </script>
-
   </body>
   </html>

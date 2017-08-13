@@ -1,99 +1,85 @@
 <html><head>
-		<meta charset="UTF-8">
-		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto|Sedgwick+Ave" rel="stylesheet">
-		<title>Burger 3: Return of Burger</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto|Sedgwick+Ave" rel="stylesheet">
+        <title>Burger 3: Return of Burger</title>
   </head>
   <body>
-
-
-
   <style>
-
 #filter-sidebar{
-	border-radius: 25px;
+    border-radius: 25px;
     border-style: solid;
     border-color: #ff0000 #0000ff;
     padding: 20px; 
     border-color: grey;
 }
-
-
-
 button{
-	background-color: grey;
-	width: 120px;
+    background-color: grey;
+    width: 120px;
 }
-
-
-
   </style>
-  	<img id="home-container" src="images/benefits-of-running-running-on-emotions.jpg" alt="Smiley face">
-  		<div id="home-prompt-1" style="opacity: 0;">Fitness takes discipline</div>
-			<div id="home-prompt-2" style="opacity: 0;">This is your secret weapon</div>
-			<div id="search-submit-shadow" id="style-10" class="container" style="height: 70%; width: 70%; top: 10%; left: 15%; opacity: 0.7;">
-				<div class="row userRow"><div id="user-name" class="col s3">WELCOME
-					<img src="images/user-512.png" id="user-icon">
-					<div id="user-name-1">
-						<br>
-						
-					</div>
-
-					<br>
-					
-
-
-
-				
-					<button id="logOFF" value="Log Off" onclick="window.location.href='/';"/>Logout</button></a></li>
-				
-				</div>
-				
-				<div class="col s3"></div>
-				<div id="fixed-calories" class="col s2">
-					<div id="calories-fixed-header">Daily Calories:</div>
-					<div id="calories-fixed-value"></div>
-				</div>
-					<div id="calories-consumed" class="col s2">Consumed:
-						<div id="user-calories-consumed-1"></div>
-				</div>
-					<div id="calories-left" class="col s2">Calories Left:
-					<div id="calories-left-1"></div>
-					</div>
-				</div>
-				<div id="results-display-header" class="row">
-					<div class="col s1"></div><div class="col s3">Restaurant Name</div>
-					<div class="col s2">Item</div><div class="col s2">Calories</div>
-					<div class="col s2">Price</div><div class="col s2">Location</div>
-				</div>
-		</div>
-		<div id="filter-sidebar">Meals Selected
-				<div id="filter-title" class="row"></div>
-				<div id="filter-list">
-					<div id="filter-restaurant">Restaurant</div>
-					<div id="filter-price">Price</div>
-					<div id="filter-calories">Calories</div>
-				</div>
-				<div id="selected-item-display">
-					I have eaten a hamburger.
-				</div>
-			</div>
-		<div id="consumption-sidebar">Consumption
-				<div id="consumption-title" class="row"></div>
-				<div id="consumption-list">
-					<div id="consumption-restaurant">Restaurant</div>
-					<div id="consumption-price">Price</div>
-					<div id="consumption-calories">Calories</div>
-					<div id="consumption-date">Date/Time</div>
-				</div>
-			</div>
-  			<form>
-  				<input id="search-submit" type="submit" value="Get Started" style="opacity: 0;">
-				</form>
-			
-  	
+    <img id="home-container" src="images/benefits-of-running-running-on-emotions.jpg" alt="Smiley face">
+        <div id="home-prompt-1" style="opacity: 0;">Fitness takes discipline</div>
+            <div id="home-prompt-2" style="opacity: 0;">This is your secret weapon</div>
+            <div id="search-submit-shadow" id="style-10" class="container" style="height: 70%; width: 70%; top: 10%; left: 15%; opacity: 0.7;">
+                <div class="row userRow"><div id="user-name" class="col s3">WELCOME
+                    <img src="images/user-512.png" id="user-icon">
+                    <div id="user-name-1">
+                        <br>
+                        
+                    </div>
+                    <br>
+                    
+                
+                    <button id="logOFF" value="Log Off" onclick="window.location.href='/';"/>Logout</button></a></li>
+                
+                </div>
+                
+                <div class="col s3"></div>
+                <div id="fixed-calories" class="col s2">
+                    <div id="calories-fixed-header">Daily Calories:</div>
+                    <div id="calories-fixed-value">2200</div>
+                </div>
+                    <div id="calories-consumed" class="col s2">Consumed:
+                        <div id="user-calories-consumed-1">0</div>
+                </div>
+                    <div id="calories-left" class="col s2">Calories Left:
+                    <div id="calories-left-1">2200</div>
+                    </div>
+                </div>
+                <div id="results-display-header" class="row">
+                    <div class="col s1"></div><div class="col s3">Restaurant Name</div>
+                    <div class="col s2">Item</div><div class="col s2">Calories</div>
+                    <div class="col s2">Price</div><div class="col s2">Location</div>
+                </div>
+        </div>
+        <div id="filter-sidebar">Meals Selected
+                <div id="filter-title" class="row"></div>
+                <div id="filter-list">
+                    <div id="filter-restaurant">Restaurant</div>
+                    <div id="filter-price">Price</div>
+                    <div id="filter-calories">Calories</div>
+                </div>
+                <div id="selected-item-display">
+                    I have eaten a hamburger.
+                </div>
+            </div>
+        <div id="consumption-sidebar">Consumption
+                <div id="consumption-title" class="row"></div>
+                <div id="consumption-list">
+                    <div id="consumption-restaurant">Restaurant</div>
+                    <div id="consumption-price">Price</div>
+                    <div id="consumption-calories">Calories</div>
+                    <div id="consumption-date">Date/Time</div>
+                </div>
+            </div>
+            <form>
+                <input id="search-submit" type="submit" value="Get Started" style="opacity: 0;">
+                </form>
+            
+    
 <script type="text/javascript" src="javascript/main.js"></script>
 <div class="hiddendiv common"></div></body></html>
