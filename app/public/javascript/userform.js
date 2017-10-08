@@ -38,6 +38,13 @@ $(document).ready(function(){
         })
         console.log(user); 
   
+                    $.post("/api/user",user).done(function(response) {
+                console.log("response from user creationg post:");
+                console.log(response);
+                console.log("===============")
+                console.log("succesful user db update")
+                localStorage.setItem("user_id", response.id);
+                 window.location = "/main";
     });
 
     $(".modal-action").on("click",function(event){
